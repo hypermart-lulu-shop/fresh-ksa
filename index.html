@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+  
+<!-- Mirrored from lulu-hypermarket-ksa-web.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Jul 2026 06:16:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lulu Hypermarket Saudi — Mega Sale up to 80% OFF</title>
+    <meta
+      name="description"
+      content="Lulu Hypermarket Saudi Arabia — Daily essentials at up to 80% OFF. Atta, Rice, Ghee, Sugar, Dates, Soap and more."
+    />
+    <meta name="theme-color" content="#14805D" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Cairo:wght@400;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                DEFAULT: "#E11D2A",
+                dark: "#B11622",
+                light: "#FDECEE",
+              },
+              fresh: {
+                DEFAULT: "#14805D",
+                dark: "#0B5C41",
+                light: "#C9EFE0",
+                subtle: "#ECFAF4",
+              },
+              accent: {
+                DEFAULT: "#F5C518",
+                dark: "#CFA313",
+              },
+              gold: {
+                DEFAULT: "#F5C518",
+                dark: "#CFA313",
+              },
+            },
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+              ar: ["Cairo", "system-ui", "sans-serif"],
+            },
+            boxShadow: {
+              soft: "0 8px 30px rgba(0,0,0,0.06)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html[dir="rtl"] body { font-family: "Cairo", system-ui, sans-serif; }
+      .price-strike { text-decoration: line-through; color: #9ca3af; }
+      .pulse-dot::before {
+        content: "";
+        position: absolute; inset: 0;
+        border-radius: 9999px;
+        background: rgba(225, 29, 42, .55);
+        animation: pulse 1.6s infinite;
+      }
+      .hero-pattern {
+        background-image:
+          radial-gradient(ellipse 90% 70% at 0% 0%, rgba(20, 128, 93, 0.14), transparent 55%),
+          radial-gradient(ellipse 70% 55% at 100% 15%, rgba(225, 29, 42, 0.06), transparent 50%),
+          radial-gradient(ellipse 55% 45% at 80% 100%, rgba(20, 128, 93, 0.1), transparent 55%);
+      }
+      @keyframes pulse {
+        0% { transform: scale(.6); opacity: 1; }
+        100% { transform: scale(2.2); opacity: 0; }
+      }
+      .scroll-fade {
+        opacity: 0; transform: translateY(16px);
+        transition: all .6s ease-out;
+      }
+      .scroll-fade.in {
+        opacity: 1; transform: translateY(0);
+      }
+      .countdown-digit {
+        font-variant-numeric: tabular-nums;
+      }
+      .locked-teaser {
+        filter: blur(5px); user-select: none; pointer-events: none;
+      }
+      body.pad-bottom-fixed { padding-bottom: 5.5rem; }
+      #entry-download-popup::backdrop {
+        background: rgb(15 23 42 / 0.65);
+        backdrop-filter: blur(4px);
+      }
+      .safe-area-pb {
+        padding-bottom: max(0.75rem, env(safe-area-inset-bottom, 0px));
+      }
+      /* Rice / ghee "pack shelf" — in static CSS because Tailwind CDN does not scan class strings inside script.js */
+      .pack-show-shell {
+        position: relative;
+        aspect-ratio: 14 / 17;
+        min-height: 12.75rem;
+        background: linear-gradient(180deg, #f3f4f6 0%, #ffffff 50%, #ffffff 100%);
+        padding: clamp(1rem, 3.5vw, 1.85rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+      }
+      @media (min-width: 768px) {
+        .pack-show-shell {
+          aspect-ratio: 26 / 30;
+          min-height: 15.5rem;
+        }
+      }
+      .pack-shot-showcase {
+        width: auto;
+        max-width: 96%;
+        max-height: clamp(210px, 38vw, 300px);
+        height: auto;
+        margin-inline: auto;
+        object-fit: contain;
+        object-position: center;
+        filter: drop-shadow(0 14px 32px rgba(0, 0, 0, 0.12));
+        transition: transform 0.45s ease;
+      }
+      .group:hover .pack-shot-showcase {
+        transform: scale(1.07);
+      }
+      .locked-pack-pop {
+        background: linear-gradient(180deg, #fafafa 0%, #ffffff 100%);
+        padding: clamp(1.25rem, 4vw, 2rem) clamp(1.75rem, 5vw, 2.75rem);
+      }
+      .locked-thumb-frame {
+        aspect-ratio: 5 / 4;
+        background: #fff;
+        position: relative;
+      }
+      .locked-center-pack {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 94%;
+        max-height: 88%;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+        filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.09));
+        transition: transform 0.35s ease, filter 0.35s ease;
+      }
+      .group:hover .locked-center-pack {
+        transform: translate(-50%, -50%) scale(1.05);
+      }
+      /* Hero spotlight mini tiles — prices synced from PRODUCTS in script.js */
+      .hero-pack-shell {
+        aspect-ratio: 1 / 1;
+        background: linear-gradient(180deg, #fafafa 0%, #ffffff 92%);
+        display: grid;
+        place-items: center;
+      }
+      .hero-pack-img {
+        width: auto;
+        max-width: 94%;
+        max-height: clamp(6.25rem, 18vw, 7.5rem);
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+        filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.08));
+        transition: transform 0.35s ease;
+      }
+      .hero-pack-tile:hover .hero-pack-img {
+        transform: scale(1.04);
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-fresh-dark text-white text-sm border-b border-white/10">
+      <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+        <div class="hidden md:flex items-center gap-4 opacity-90">
+          <span data-i18n="topbar.welcome">Welcome to Lulu Hypermarket Saudi Arabia</span>
+          <span class="opacity-50">|</span>
+          <span data-i18n="topbar.delivery">Free delivery on orders above SAR 100</span>
+        </div>
+        <div class="flex items-center gap-3 ms-auto">
+          <a href="tel:+966800000000" class="hidden sm:inline opacity-90 hover:opacity-100" data-i18n="topbar.help">24/7 Support</a>
+          <div class="flex items-center bg-white/10 rounded-full p-1">
+            <button
+              onclick="setLang('en')"
+              id="btn-en"
+              class="px-3 py-1 rounded-full text-xs font-semibold transition"
+            >EN</button>
+            <button
+              onclick="setLang('ar')"
+              id="btn-ar"
+              class="px-3 py-1 rounded-full text-xs font-semibold transition"
+            >العربية</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header / Nav -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-gray-100">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-6">
+        <a href="#" class="flex items-center gap-3 shrink-0">
+          <div class="w-12 h-12 rounded-xl bg-white ring-2 ring-fresh/35 shadow-soft overflow-hidden grid place-items-center">
+            <img src="assets/logo.png" alt="Lulu Hypermarket" class="w-full h-full object-contain p-1" />
+          </div>
+          <div class="leading-tight">
+            <div class="font-extrabold text-fresh-dark text-lg">LULU</div>
+            <div class="text-[10px] uppercase tracking-widest text-gray-500" data-i18n="brand.tagline">Hypermarket KSA</div>
+          </div>
+        </a>
+
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-gray-700">
+          <a href="#offers" class="hover:text-fresh-dark transition" data-i18n="nav.offers">Mega Offers</a>
+          <a href="#products" class="hover:text-fresh-dark transition" data-i18n="nav.products">Products</a>
+          <a href="#categories" class="hover:text-fresh-dark transition" data-i18n="nav.categories">Categories</a>
+          <a href="#download" class="hover:text-fresh-dark transition" data-i18n="nav.app">App</a>
+          <a href="#reviews" class="hover:text-fresh-dark transition" data-i18n="nav.reviews">Reviews</a>
+        </nav>
+
+        <div class="flex-1 hidden md:block">
+          <div class="relative max-w-md ms-auto">
+            <input
+              type="text"
+              data-i18n-attr="placeholder:nav.search"
+              placeholder="Search for atta, rice, ghee..."
+              class="w-full bg-gray-50 border border-gray-200 rounded-full pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-fresh/35"
+            />
+            <svg class="absolute left-3 top-2.5 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <button class="relative p-2 rounded-full hover:bg-gray-100">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 8m12-8l2 8M9 21a1 1 0 100-2 1 1 0 000 2zm8 0a1 1 0 100-2 1 1 0 000 2z"/></svg>
+            <span id="cart-count" class="absolute -top-1 -right-1 bg-gold text-white text-[10px] font-bold rounded-full w-5 h-5 grid place-items-center">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-white via-fresh-subtle to-white">
+      <div class="absolute inset-0 hero-pattern pointer-events-none"></div>
+      <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+        <div class="relative z-[1] text-gray-900">
+          <div class="inline-flex items-center gap-2 bg-white border border-fresh/25 shadow-sm rounded-full px-3 py-1 text-sm font-semibold mb-5">
+            <span class="relative w-2 h-2"><span class="absolute inset-0 bg-brand rounded-full"></span><span class="pulse-dot absolute inset-0 rounded-full"></span></span>
+            <span class="text-fresh-dark" data-i18n="hero.badge">LIVE — Mega Ramadan Sale</span>
+          </div>
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+            <span data-i18n="hero.title.line1">Daily Essentials at</span><br />
+            <span class="text-brand" data-i18n="hero.title.line2">up to 80% OFF</span>
+          </h1>
+          <p class="text-gray-600 text-lg mb-8 max-w-xl" data-i18n="hero.subtitle">
+            Atta, Rice, Ghee, Sugar, Dates, Soap & more — original brands at the lowest prices across Saudi Arabia. Limited-time mega offer.
+          </p>
+          <!-- Primary download -->
+          <div class="flex flex-wrap gap-3 mb-4">
+            <a
+              href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk"
+              target="_blank"
+              rel="noopener"
+              download="LuLu-Hypermarket-ksa.apk"
+              class="inline-flex items-center gap-3 bg-fresh-dark hover:bg-fresh text-white px-8 py-4 rounded-2xl transition shadow-xl ring-2 ring-fresh/30 font-bold text-lg"
+            >
+              <svg class="w-8 h-8 shrink-0" fill="none" stroke="currentColor" stroke-width="2.25" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M8 12l4 4m0 0l4-4m-4 4V4"/>
+              </svg>
+              <span data-i18n="cta.download_app">Download app</span>
+            </a>
+          </div>
+          <!-- Reference-style hero stats -->
+          <div class="flex flex-wrap gap-2 mb-8">
+            <div class="rounded-xl bg-white border border-gray-100 shadow-sm px-3 py-2 text-center min-w-[4.75rem]" data-stats>
+              <div class="font-extrabold text-fresh-dark tabular-nums" data-stats-installs>55K+</div>
+              <div class="text-[10px] uppercase tracking-wide text-gray-500" data-i18n="hero.stats.installs">Android installs</div>
+            </div>
+            <div class="rounded-xl bg-white border border-gray-100 shadow-sm px-3 py-2 text-center min-w-[4.75rem]" data-stats>
+              <div class="font-extrabold tabular-nums text-gray-900" data-stats-rating>4.8 ★</div>
+              <div class="text-[10px] uppercase tracking-wide text-gray-500" data-i18n="hero.stats.play">App rating</div>
+            </div>
+            <div class="rounded-xl bg-white border border-gray-100 shadow-sm px-3 py-2 text-center min-w-[4.75rem]" data-stats>
+              <div class="font-extrabold tabular-nums text-gray-900"><span dir="ltr" data-stats-mins>60</span> <span data-i18n="hero.stats.unitmin">min</span></div>
+              <div class="text-[10px] uppercase tracking-wide text-gray-500" data-i18n="hero.stats.ondemand">On Demand · KSA</div>
+            </div>
+            <div class="rounded-xl bg-white border border-gray-100 shadow-sm px-3 py-2 text-center min-w-[4.75rem]" data-stats>
+              <div class="font-extrabold tabular-nums text-brand">2k+</div>
+              <div class="text-[10px] uppercase tracking-wide text-gray-500" data-i18n="hero.stats.deals">Daily deals</div>
+            </div>
+          </div>
+          <!-- Secondary action -->
+          <div class="flex flex-wrap gap-3">
+            <a href="#products" class="border-2 border-fresh text-fresh-dark hover:bg-fresh-light font-semibold px-6 py-2.5 rounded-full transition text-sm bg-white/70 backdrop-blur-sm" data-i18n="hero.cta.primary">Browse Offers ↓</a>
+          </div>
+          <div class="flex flex-wrap items-center gap-6 mt-10 text-sm text-gray-600">
+            <div class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+              <span data-i18n="hero.trust.rating">4.8 / 5 — 25K+ reviews</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg class="w-5 h-5 text-fresh" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span data-i18n="hero.trust.delivery">Same-day delivery in Riyadh, Jeddah, Dammam</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero offer card -->
+        <div class="relative z-[1]">
+          <div class="absolute -top-6 -left-6 bg-brand text-white font-extrabold rounded-2xl px-4 py-2 rotate-[-8deg] shadow-soft z-10 ring-2 ring-white">
+            <div class="text-3xl leading-none">80%</div>
+            <div class="text-xs uppercase tracking-wider text-white/95" data-i18n="hero.offercard.off">OFF</div>
+          </div>
+          <div class="bg-white rounded-3xl p-6 shadow-soft ring-1 ring-gray-100">
+            <div id="hero-product-grid" class="grid grid-cols-2 gap-3">
+              <!-- Filled by renderHeroSpotlight() in script.js (rice · ghee · vimto · oil + SAR −80%) -->
+            </div>
+            <div class="mt-4 flex items-center justify-between">
+              <div>
+                <div class="text-xs uppercase tracking-widest text-gray-500" data-i18n="hero.offercard.ends">Offer ends in</div>
+                <div id="countdown" class="font-mono font-bold text-fresh-dark text-lg">--:--:--</div>
+              </div>
+              <a href="#products" class="bg-fresh-dark hover:bg-fresh text-white font-semibold px-4 py-2 rounded-full text-sm shadow-sm" data-i18n="hero.offercard.cta">View Deals</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flash deal banner (reference: lulustockclearance) -->
+    <section id="offers" class="bg-gradient-to-r from-fresh-dark via-neutral-900 to-fresh-dark text-white border-y border-white/10">
+      <div class="max-w-7xl mx-auto px-4 py-5 md:py-7 flex flex-col lg:flex-row lg:items-center gap-6">
+        <div class="flex-1">
+          <div class="inline-flex items-center gap-2 rounded-full bg-gold/15 border border-gold/40 px-3 py-1 text-xs font-bold text-gold mb-3">
+            <span aria-hidden="true">⚡</span>
+            <span data-i18n="flash.eyebrow">Flash Deal · Up to 80% off</span>
+          </div>
+          <p class="text-lg md:text-xl font-semibold leading-snug">
+            <span data-i18n="flash.p1">App-only prices on </span>
+            <strong class="text-gold" dir="ltr" data-i18n="flash.strong">800+</strong>
+            <span data-i18n="flash.p2"> essentials across Saudi Arabia — ends soon!</span>
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center justify-center lg:justify-end gap-2 md:gap-3 shrink-0" id="flash-countdown" aria-live="polite">
+          <!-- Filled by script.js -->
+        </div>
+        <div class="flex justify-center lg:justify-start">
+          <a href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk" target="_blank" rel="noopener" download="LuLu-Hypermarket-ksa.apk" id="flash-shop-app" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-black font-extrabold px-6 py-3 rounded-full whitespace-nowrap transition shadow-lg shadow-gold/20">
+            <svg class="w-5 h-5 shrink-0" fill="none" stroke="currentColor" stroke-width="2.25" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M8 12l4 4m0 0l4-4m-4 4V4"/></svg>
+            <span data-i18n="cta.download_app">Download app</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="bg-fresh-light border-y border-fresh/15">
+      <div class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-white grid place-items-center text-fresh-dark shadow-sm ring-1 ring-fresh/10">🚚</div>
+          <div>
+            <div class="font-bold" data-i18n="trust.fastdelivery.title">Fast Delivery</div>
+            <div class="text-gray-600" data-i18n="trust.fastdelivery.sub">Same-day in major cities</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-white grid place-items-center text-brand shadow-sm ring-1 ring-brand/10">💰</div>
+          <div>
+            <div class="font-bold" data-i18n="trust.price.title">Lowest Price</div>
+            <div class="text-gray-600" data-i18n="trust.price.sub">Up to 80% off daily</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-white grid place-items-center text-fresh-dark shadow-sm ring-1 ring-fresh/10">✅</div>
+          <div>
+            <div class="font-bold" data-i18n="trust.original.title">100% Original</div>
+            <div class="text-gray-600" data-i18n="trust.original.sub">Authentic brands only</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-full bg-white grid place-items-center text-fresh-dark shadow-sm ring-1 ring-fresh/10">↩️</div>
+          <div>
+            <div class="font-bold" data-i18n="trust.return.title">Easy Returns</div>
+            <div class="text-gray-600" data-i18n="trust.return.sub">7-day return policy</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex flex-col gap-6 mb-6">
+          <div class="flex flex-wrap items-center justify-between gap-4 bg-white rounded-2xl border border-gray-100 px-4 py-3 shadow-sm">
+            <div class="inline-flex items-center gap-2 rounded-full bg-white border border-fresh/25 px-3 py-1 text-xs font-bold text-fresh-dark shadow-sm">
+              <span aria-hidden="true">★</span>
+              <span data-i18n="products.app_exclusive">App Exclusive</span>
+            </div>
+            <a href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk" target="_blank" rel="noopener" class="text-sm font-semibold text-fresh-dark hover:text-brand hover:underline flex items-center gap-1 transition">
+              <span data-i18n="products.open_app">Shop in App</span><span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="flex items-end justify-between flex-wrap gap-4">
+          <div>
+            <div class="text-fresh-dark font-bold uppercase tracking-widest text-xs mb-2 flex items-center gap-2 flex-wrap">
+              <span aria-hidden="true">🔥</span>
+              <span data-i18n="products.today">Today's hottest deals</span>
+              <span class="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full bg-gold/90 text-black" data-i18n="products.sar_live">Prices in SAR · Saudi</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-extrabold" data-i18n="products.title">Daily Essentials at the Best Prices</h2>
+            <p class="text-gray-600 mt-2 max-w-2xl" data-i18n="products.subtitle">
+              Rice, atta, eggs, water, milk, dates, mangoes and more — top Saudi brands at unbeatable prices.
+            </p>
+            <div class="flex flex-wrap gap-2 mt-4 text-[11px] font-semibold text-gray-700">
+              <span class="rounded-full bg-gold/20 text-gray-900 px-2 py-1" data-i18n="products.pills.card">Extra off on eligible cards*</span>
+              <span class="rounded-full bg-gray-100 px-2 py-1 border border-gray-200" data-i18n="products.pills.delivery">Free delivery on qualifying orders*</span>
+            </div>
+          </div>
+          <div class="text-end shrink-0 flex flex-col items-end gap-2">
+            <button type="button" id="open-app-modal-mini" class="lg:hidden text-fresh-dark font-semibold hover:text-brand hover:underline bg-transparent border-0 cursor-pointer p-0 text-end font-sans text-sm transition" data-i18n="products.install_unlock">Unlock app-only prices</button>
+            <a href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk" target="_blank" rel="noopener" class="hidden lg:inline text-fresh-dark font-semibold hover:text-brand hover:underline text-sm transition" data-i18n="products.viewall">View all products →</a>
+            <button type="button" id="unlock-link-desk" class="hidden lg:block text-fresh-dark hover:text-brand hover:underline text-sm underline-offset-4 bg-transparent border-0 cursor-pointer font-sans font-semibold text-end leading-snug max-w-[16rem] transition" data-i18n="products.unlock_line">Better prices locked in cart on Android</button>
+          </div>
+          </div>
+        </div>
+
+        <!-- Category filter tabs -->
+        <div id="category-tabs" class="flex gap-2 mb-8 overflow-x-auto pb-2 -mx-4 px-4 scroll-pl-4 snap-x"></div>
+
+        <div id="product-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5"></div>
+      </div>
+    </section>
+
+    <!-- Locked / app teaser (reference: unlock grocery deals in app) -->
+    <section id="locked-offers" class="py-16 bg-white border-y border-gray-100">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex flex-wrap items-end justify-between gap-4 mb-8">
+          <div>
+            <div class="text-xs font-extrabold uppercase tracking-[0.2em] text-gray-400 mb-2 flex items-center gap-2 flex-wrap">
+              <span aria-hidden="true">🔒</span>
+              <span data-i18n="locked.subtitle">App Exclusive · Locked deals</span>
+            </div>
+            <h2 class="text-2xl md:text-4xl font-extrabold leading-snug"><span data-i18n="locked.title">Unlock grocery deals in the app</span></h2>
+            <p class="text-gray-600 mt-2 max-w-xl" data-i18n="locked.desc">Secret splash prices • App-only SAR deals • Faster checkout across Riyadh, Jeddah, Dammam &amp; Khobar*</p>
+          </div>
+          <a href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-fresh-dark hover:brightness-110 text-white font-bold px-6 py-3 rounded-full whitespace-nowrap transition shadow-md">
+            <span data-i18n="locked.unlock_all">Install App to Unlock</span>
+          </a>
+        </div>
+        <div id="locked-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4"></div>
+        <p class="text-[11px] text-gray-400 mt-6 leading-relaxed" data-i18n="locked.footer">*Illustrative prices for demo landing page — check the official app for availability in your city.</p>
+      </div>
+    </section>
+
+    <!-- Reviews (reference: shopper quotes) -->
+    <section id="reviews" class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-fresh-dark font-bold uppercase tracking-widest text-xs mb-2 flex items-center gap-2"><span aria-hidden="true">★</span><span data-i18n="reviews.label">Trusted by shoppers</span></div>
+        <h2 class="text-2xl md:text-4xl font-extrabold mb-10" data-i18n="reviews.title">What Saudi shoppers say</h2>
+        <div id="review-grid" class="grid md:grid-cols-2 gap-5 lg:gap-8"></div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="py-12 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <h3 class="text-2xl font-extrabold mb-6" data-i18n="categories.title">Shop by Category</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4" id="category-grid"></div>
+      </div>
+    </section>
+
+    <!-- Download App -->
+    <section id="download" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <div class="text-fresh-dark font-bold uppercase tracking-widest text-xs mb-2" data-i18n="app.eyebrow">Android App</div>
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-4" data-i18n="app.title">Download the Lulu KSA App</h2>
+          <p class="text-gray-600 mb-6 text-lg" data-i18n="app.subtitle">
+            Get exclusive in-app offers, faster checkout, order tracking and push alerts for flash deals — directly on your Android phone.
+          </p>
+          <ul class="space-y-2 mb-7 text-gray-700">
+            <li class="flex items-center gap-2"><span class="text-fresh-dark font-bold">✓</span> <span data-i18n="app.feat.1">Members-only prices &amp; coupons</span></li>
+            <li class="flex items-center gap-2"><span class="text-fresh-dark font-bold">✓</span> <span data-i18n="app.feat.2">Live order tracking</span></li>
+            <li class="flex items-center gap-2"><span class="text-fresh-dark font-bold">✓</span> <span data-i18n="app.feat.3">Flash-deal notifications</span></li>
+          </ul>
+          <div class="flex flex-wrap gap-3">
+            <a
+              href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk"
+              target="_blank"
+              rel="noopener"
+              download="LuLu-Hypermarket-ksa.apk"
+              class="inline-flex items-center gap-3 bg-fresh-dark hover:bg-fresh text-white px-8 py-4 rounded-2xl transition shadow-soft font-bold text-lg ring-2 ring-fresh/25"
+            >
+              <svg class="w-8 h-8 shrink-0" fill="none" stroke="currentColor" stroke-width="2.25" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M8 12l4 4m0 0l4-4m-4 4V4"/>
+              </svg>
+              <span data-i18n="cta.download_app">Download app</span>
+            </a>
+          </div>
+          <div class="mt-5 flex items-center gap-4 text-sm text-gray-500">
+            <div class="flex items-center gap-1">
+              <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+              <span data-i18n="app.rating">4.7 · 50K+ downloads</span>
+            </div>
+            <span data-i18n="app.size">Size: 24 MB</span>
+          </div>
+        </div>
+
+        <div class="relative flex justify-center">
+          <div class="relative w-[260px] h-[520px] bg-gray-900 rounded-[40px] p-3 shadow-2xl">
+            <div class="absolute top-2 left-1/2 -translate-x-1/2 w-24 h-5 bg-gray-900 rounded-b-2xl z-10"></div>
+            <div class="w-full h-full rounded-[30px] overflow-hidden bg-gradient-to-br from-fresh-dark via-fresh to-fresh-dark flex flex-col items-center justify-center text-white">
+              <div class="w-28 h-28 bg-white/10 rounded-3xl grid place-items-center mb-5 p-3">
+                <img src="assets/logo.png" alt="Lulu" class="w-full h-full object-contain" />
+              </div>
+              <div class="font-extrabold text-2xl">LULU KSA</div>
+              <div class="text-white/70 text-sm mt-1" data-i18n="app.phone.tagline">Saudi's #1 grocery app</div>
+              <div class="mt-8 bg-white/10 backdrop-blur rounded-2xl px-4 py-3 text-center">
+                <div class="text-3xl font-extrabold text-gold">80%</div>
+                <div class="text-xs uppercase tracking-widest mt-1" data-i18n="app.phone.off">App-only OFF</div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute -top-4 -right-4 bg-brand text-white font-extrabold rounded-2xl px-3 py-2 rotate-[10deg] shadow-soft text-sm ring-2 ring-white">
+            <span data-i18n="app.bonus">+10% extra in app</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="py-16 relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-r from-fresh-dark via-fresh to-emerald-900"></div>
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 50% 50%, #D4AF37 0, transparent 60%);"></div>
+      <div class="relative max-w-3xl mx-auto px-4 text-center text-white">
+        <div class="inline-block bg-gold text-black px-3 py-1 rounded-full text-xs font-bold mb-4" data-i18n="newsletter.badge">EXCLUSIVE</div>
+        <h3 class="text-3xl md:text-4xl font-extrabold mb-3" data-i18n="newsletter.title">Subscribe & Get 10% Extra OFF</h3>
+        <p class="text-white/80 mb-7" data-i18n="newsletter.subtitle">
+          Join our newsletter and be the first to know about flash deals, new arrivals and members-only coupons.
+        </p>
+        <form id="subscribe-form" class="flex flex-col sm:flex-row gap-3 max-w-xl mx-auto">
+          <input
+            id="email-input"
+            type="email"
+            required
+            data-i18n-attr="placeholder:newsletter.placeholder"
+            placeholder="Enter your email"
+            class="flex-1 px-5 py-3 rounded-full text-gray-900 focus:outline-none focus:ring-4 focus:ring-gold/40"
+          />
+          <button
+            type="submit"
+            class="bg-gold hover:bg-gold-dark text-black font-bold px-7 py-3 rounded-full transition"
+            data-i18n="newsletter.cta"
+          >Subscribe</button>
+        </form>
+        <p id="subscribe-msg" class="mt-4 text-gold font-semibold hidden" data-i18n="newsletter.success">✓ Thank you! Your 10% coupon is on the way.</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+      <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-12 h-12 rounded-xl bg-fresh grid place-items-center overflow-hidden ring-2 ring-fresh-light/40">
+              <img src="assets/logo.png" alt="Lulu Hypermarket" class="w-full h-full object-contain p-1" />
+            </div>
+            <div>
+              <div class="font-extrabold text-white text-lg">LULU</div>
+              <div class="text-[10px] uppercase tracking-widest text-gray-400" data-i18n="footer.tagline">Hypermarket KSA</div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-400" data-i18n="footer.about">
+            Saudi Arabia's trusted hypermarket. Quality groceries at unbeatable prices, delivered to your door.
+          </p>
+        </div>
+        <div>
+          <div class="font-bold text-white mb-3" data-i18n="footer.quicklinks">Quick Links</div>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#offers" class="hover:text-white" data-i18n="nav.offers">Mega Offers</a></li>
+            <li><a href="#products" class="hover:text-white" data-i18n="nav.products">Products</a></li>
+            <li><a href="#categories" class="hover:text-white" data-i18n="nav.categories">Categories</a></li>
+            <li><a href="#newsletter" class="hover:text-white" data-i18n="nav.subscribe">Subscribe</a></li>
+            <li><a href="#reviews" class="hover:text-white" data-i18n="nav.reviews">Reviews</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-bold text-white mb-3" data-i18n="footer.help">Customer Help</div>
+          <ul class="space-y-2 text-sm">
+            <li data-i18n="footer.contact">Contact Us</li>
+            <li data-i18n="footer.shipping">Shipping &amp; Delivery</li>
+            <li data-i18n="footer.returns">Returns Policy</li>
+            <li data-i18n="footer.privacy">Privacy Policy</li>
+          </ul>
+        </div>
+        <div>
+          <div class="font-bold text-white mb-3" data-i18n="footer.contactus">Contact</div>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li>📍 <span data-i18n="footer.address">King Fahd Road, Riyadh, KSA</span></li>
+            <li>📞 +966 800 000 000</li>
+            <li>✉️ care@lulu-ksa.com</li>
+          </ul>
+          <div class="flex gap-3 mt-4">
+            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-gold hover:text-black grid place-items-center transition">f</a>
+            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-gold hover:text-black grid place-items-center transition">𝕏</a>
+            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-gold hover:text-black grid place-items-center transition">in</a>
+            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-gold hover:text-black grid place-items-center transition">▶</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-white/10 py-5 text-center text-xs text-gray-500">
+        © <span id="year"></span> Lulu Hypermarket Saudi Arabia. <span data-i18n="footer.rights">All rights reserved.</span>
+      </div>
+    </footer>
+
+    <!-- Sticky install bar (mobile-first, reference strip) -->
+    <div id="sticky-install" class="fixed bottom-0 inset-x-0 z-50 lg:hidden shadow-[0_-8px_30px_rgba(0,0,0,.12)] opacity-100 translate-y-0 transition-[opacity,transform] duration-300" hidden>
+      <div class="bg-fresh-dark text-white px-4 py-3 safe-area-pb border-t border-white/10">
+        <div class="flex items-center gap-3">
+          <div class="rounded-xl bg-white/10 overflow-hidden shrink-0 w-11 h-11 grid place-items-center">
+            <img src="assets/logo.png" alt="" class="w-8 h-8 object-contain" />
+          </div>
+          <div class="min-w-0 flex-1 leading-tight">
+            <div class="text-[11px] font-bold uppercase tracking-wider text-gold" data-i18n="sticky.eyebrow">Android Exclusive</div>
+            <div class="text-sm font-semibold truncate" data-i18n="sticky.line">Extra savings + live tracking in app</div>
+          </div>
+          <button type="button" id="sticky-dismiss" class="shrink-0 text-white/50 hover:text-white p-2" aria-label="Dismiss">✕</button>
+          <a href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk" target="_blank" rel="noopener" id="sticky-install-btn" class="shrink-0 bg-gold text-black font-bold text-sm px-4 py-2.5 rounded-full" data-i18n="sticky.install">Install</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry: download app (shown on landing open) -->
+    <dialog id="entry-download-popup" class="mx-auto max-h-[calc(100dvh-2rem)] w-[min(calc(100vw-2rem),26rem)] max-w-[calc(100vw-2rem)] rounded-[1.65rem] border-0 shadow-2xl p-0 overflow-hidden backdrop:bg-transparent">
+      <div class="relative bg-gradient-to-br from-fresh-dark via-fresh to-emerald-900 text-white px-7 pt-8 pb-7 text-start">
+        <button type="button" id="entry-popup-close-x" class="absolute top-3 end-4 text-white/70 hover:text-white text-3xl leading-none font-light px-2 z-10" aria-label="Close">×</button>
+        <div class="flex items-center gap-3 mb-5 pe-10">
+          <div class="w-14 h-14 rounded-2xl bg-white grid place-items-center shadow-lg shrink-0">
+            <img src="assets/logo.png" alt="" class="w-11 h-11 object-contain" />
+          </div>
+          <div>
+            <div class="text-[11px] font-bold uppercase tracking-[0.28em] text-gold mb-1" data-i18n="entry.tag">Android · Saudi Arabia</div>
+            <h2 class="text-xl md:text-[1.375rem] font-extrabold leading-tight" data-i18n="entry.title">Download the LuLu KSA app</h2>
+          </div>
+        </div>
+        <p class="text-sm text-white/90 mb-5 leading-relaxed" data-i18n="entry.body">
+          Exclusive offers and faster grocery shopping — download the Android app free with one tap.
+        </p>
+        <ul class="text-[13px] text-white/88 space-y-2 mb-6 list-none ps-0">
+          <li class="flex gap-2"><span class="text-gold font-bold shrink-0">✓</span><span data-i18n="app.feat.1">Members-only prices & coupons</span></li>
+          <li class="flex gap-2"><span class="text-gold font-bold shrink-0">✓</span><span data-i18n="app.feat.2">Live order tracking</span></li>
+          <li class="flex gap-2"><span class="text-gold font-bold shrink-0">✓</span><span data-i18n="app.feat.3">Flash-deal notifications</span></li>
+        </ul>
+        <div class="flex flex-col gap-2.5 mb-6">
+          <a
+            href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk"
+            target="_blank"
+            rel="noopener"
+            download="LuLu-Hypermarket-ksa.apk"
+            id="entry-popup-download"
+            class="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-fresh-dark font-bold py-3.5 px-5 rounded-2xl transition shadow-lg"
+          >
+            <svg class="w-7 h-7 shrink-0" fill="none" stroke="currentColor" stroke-width="2.25" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M8 12l4 4m0 0l4-4m-4 4V4"/>
+            </svg>
+            <span data-i18n="cta.download_app">Download app</span>
+          </a>
+        </div>
+        <button type="button" id="entry-popup-browse" class="text-sm text-white/75 hover:text-white font-semibold w-full py-2 mb-5 border border-white/20 rounded-xl bg-white/5" data-i18n="entry.continue">Continue on website</button>
+        <label class="flex items-start gap-2.5 cursor-pointer text-xs text-white/70 select-none">
+          <input type="checkbox" id="entry-hide-again" class="mt-1 size-4 rounded border-white/30 bg-white/10 accent-gold shrink-0" />
+          <span data-i18n="entry.dismiss_next">Don't show again for 7 days</span>
+        </label>
+      </div>
+    </dialog>
+
+    <!-- App promo modal -->
+    <dialog id="app-modal" class="max-w-[min(100vw-2rem,28rem)] w-full rounded-3xl border-0 shadow-2xl p-0 overflow-hidden backdrop:bg-black/55">
+      <div class="relative bg-neutral-950 text-white p-8">
+        <button type="button" id="modal-close-x" class="absolute top-3 end-3 text-white/60 hover:text-white text-xl font-light leading-none px-2" aria-label="Close">×</button>
+        <div class="rounded-2xl inline-flex gap-2 items-center px-3 py-1 text-xs font-bold bg-gold/15 border border-gold/35 text-gold mb-5">
+          <span aria-hidden="true">⚡</span>
+          <span data-i18n="modal.tag">App Exclusive</span>
+        </div>
+        <h3 class="text-xl font-extrabold leading-snug mb-3 pe-8" data-i18n="modal.title">Continue in the Lulu KSA Android app</h3>
+        <ul class="text-sm text-white/85 space-y-2 mb-6 list-disc ms-5">
+          <li data-i18n="modal.b1">App-only SAR prices • locked in checkout</li>
+          <li data-i18n="modal.b2">Hourly flash deals up to 80% off*</li>
+          <li data-i18n="modal.b3">1-tap reorder &amp; tracking</li>
+        </ul>
+        <div class="flex flex-col gap-2">
+          <a href="https://github.com/Luluhypermart/luluhyper/releases/download/v1.01/LuLu-Hypermarket.6.apk" target="_blank" rel="noopener" download="LuLu-Hypermarket-ksa.apk" class="flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-black font-bold py-3 rounded-2xl">
+            <svg class="w-6 h-6 shrink-0" fill="none" stroke="currentColor" stroke-width="2.25" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M8 12l4 4m0 0l4-4m-4 4V4"/></svg>
+            <span data-i18n="cta.download_app">Download app</span>
+          </a>
+          <button type="button" id="modal-send-link" class="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 font-semibold py-3 rounded-2xl text-sm transition" data-i18n="modal.sendlink">Copy download link</button>
+          <button type="button" id="modal-stay-web" class="text-sm text-white/55 hover:text-white py-2" data-i18n="modal.stay">Continue on web</button>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="script9301.js?v=lulu-apk-ksa-cdn-2026"></script>
+  </body>
+
+<!-- Mirrored from lulu-hypermarket-ksa-web.web.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Jul 2026 06:16:43 GMT -->
+</html>
